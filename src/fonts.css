@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Saans';
+    src: url('./Avolta Saans/Saans-Light.woff') format('woff'),
+        url('./Avolta Saans/Saans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saans';
+    src: url('./Avolta Saans/Saans-Regular.woff') format('woff'),
+        url('./Avolta Saans/Saans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saans';
+    src: url('./Avolta Saans/Saans-Medium.woff') format('woff'),
+        url('./Avolta Saans/Saans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saans';
+    src: url('./Avolta Saans/Saans-MediumItalic.woff') format('woff'),
+        url('./Avolta Saans/Saans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Saans';
+    src: url('./Avolta Saans/Saans-SemiBold.woff') format('woff'),
+        url('./Avolta Saans/Saans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saans';
+    src: url('./Avolta Saans/Saans-SemiBoldItalic.woff') format('woff'),
+        url('./Avolta Saans/Saans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
