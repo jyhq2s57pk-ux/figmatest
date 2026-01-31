@@ -1,0 +1,56 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 4px; /* px-[4px] py-[2px] */
+  border-radius: 4px; /* Assumed radius, standard for badges */
+  font-family: 'Saans', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  width: fit-content;
+}
+
+/* Sizes */
+.badge--sml {
+  /* height: 22px; handled by padding + font */
+}
+
+.badge--med {
+  /* height: 25px; */
+  padding: 4px 6px;
+}
+
+.badge__content {
+  font-weight: 500; /* Font-['Saans:Medium'] */
+  font-size: 12px;
+}
+
+/* Colors */
+.badge--Executive .badge__content {
+  color: #26c8ad;
+}
+.badge--Executive {
+  background-color: rgba(38, 200, 173, 0.1); /* Inferred background tint based on common patterns, matching text color */
+}
+
+.badge--Premium .badge__content {
+  color: #ba8dff;
+}
+.badge--Premium {
+  background-color: rgba(186, 141, 255, 0.1);
+}
+
+.badge--Standard .badge__content {
+  color: #929292; /* Inferred standard grey */
+}
+.badge--Standard {
+  background-color: rgba(146, 146, 146, 0.1);
+}
+
+.badge--New .badge__content {
+  color: #ff8d8d; /* Inferred new color */
+}
+.badge--New {
+  background-color: rgba(255, 141, 141, 0.1);
+}

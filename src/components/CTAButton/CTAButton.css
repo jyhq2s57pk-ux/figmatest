@@ -1,0 +1,76 @@
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* var(--core/100, 8px) usually, varies by size */
+    border: none;
+    border-radius: 100px;
+    /* Fully rounded */
+    font-family: 'Saans', sans-serif;
+    font-weight: 400;
+    /* Regular */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.cta-btn__icon {
+    display: block;
+}
+
+/* Sizes */
+.cta-btn--sml {
+    padding: 6px 16px;
+    font-size: 14px;
+    /* height ~32px */
+}
+
+.cta-btn--sml .cta-btn__icon {
+    width: 16px;
+    height: 16px;
+}
+
+.cta-btn--med {
+    padding: 8px 20px;
+    font-size: 16px;
+    /* height ~40px */
+}
+
+.cta-btn--med .cta-btn__icon {
+    width: 18px;
+    height: 18px;
+}
+
+.cta-btn--lrg {
+    padding: 12px 24px;
+    font-size: 18px;
+    /* height ~48px */
+}
+
+.cta-btn--lrg .cta-btn__icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Colors */
+.cta-btn--light {
+    background-color: #F7F7F7;
+    /* based on Figma */
+    color: #191919;
+}
+
+.cta-btn--light:hover {
+    background-color: #EFEFEF;
+}
+
+.cta-btn--dark {
+    background-color: #373737;
+    /* var(--night) */
+    color: #FFFFFF;
+}
+
+.cta-btn--dark:hover {
+    background-color: #2C2C2C;
+}
