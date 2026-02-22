@@ -4,6 +4,10 @@ const config: StorybookConfig = {
   stories: ["../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [],
   framework: "@storybook/react-vite",
+  viteFinal: (config) => {
+    config.base = "/toolkit-components/";
+    return config;
+  },
 };
 
 export default config;
