@@ -1,6 +1,7 @@
 import { HeroCampaign } from './components/HeroCampaign/HeroCampaign'
 import { CTAButton } from './components/CTAButton/CTAButton'
 import { LinkCard } from './components/LinkCard/LinkCard'
+import { Carousel } from './components/Carousel/Carousel'
 import './App.css'
 
 const ASSET_LISTEN_ICON = "http://localhost:3845/assets/9796a8b7c53d5ede6fe6f99b8586cd72cd57f488.svg";
@@ -12,6 +13,11 @@ function App() {
         <section>
           <h2>Hero Campaign</h2>
           <HeroCampaign />
+        </section>
+
+        <section>
+          <h2>Carousel</h2>
+          <Carousel />
         </section>
 
         <section className="row-section">
