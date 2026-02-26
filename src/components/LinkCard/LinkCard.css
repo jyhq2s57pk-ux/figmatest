@@ -91,6 +91,7 @@
 /* Desktop / Large Card */
 .link-card--desktop {
     width: 334px;
+    max-width: 100%;
     height: 150px;
     padding: 24px;
     /* Layout: Content top-left, Chevron bottom-right */
@@ -126,4 +127,38 @@
     position: absolute;
     bottom: 15px;
     right: 15px;
+}
+
+/* Responsive: Mobile */
+@media (max-width: 768px) {
+    .link-card--desktop {
+        width: 100%;
+        height: auto;
+        min-height: 130px;
+    }
+
+    .link-card--desktop .link-card__title {
+        font-size: 18px;
+    }
+
+    .link-card--mobile {
+        width: 100%;
+        min-height: 110px;
+    }
+}
+
+/* Responsive: Small Mobile */
+@media (max-width: 480px) {
+    .link-card--desktop {
+        padding: 20px;
+        min-height: 120px;
+    }
+
+    .link-card--desktop .link-card__title {
+        font-size: 17px;
+    }
+
+    .link-card--mobile {
+        padding: 16px;
+    }
 }

@@ -74,3 +74,16 @@
 .cta-btn--dark:hover {
     background-color: #2C2C2C;
 }
+
+/* Responsive: Small Mobile */
+@media (max-width: 480px) {
+    .cta-btn--lrg {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .cta-btn--med {
+        padding: 7px 16px;
+        font-size: 14px;
+    }
+}

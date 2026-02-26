@@ -42,3 +42,59 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
+
+/* Responsive: Tablet */
+@media (max-width: 1024px) {
+  .app-container {
+    padding: 24px;
+  }
+
+  .component-showcase {
+    gap: 40px;
+  }
+
+  .row-section {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 16px;
+  }
+
+  .component-showcase {
+    gap: 32px;
+  }
+
+  .row-section {
+    gap: 32px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+}
+
+/* Responsive: Small Mobile */
+@media (max-width: 480px) {
+  .app-container {
+    padding: 12px;
+  }
+
+  .col-section {
+    gap: 16px;
+  }
+
+  .row {
+    gap: 10px;
+  }
+}
